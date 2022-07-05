@@ -37,4 +37,10 @@ n = rgb2gray(a);
 
 
 
+% mat2gray
+
+scalegray = mat2gray(a);
+bw2 = im2bw(scalegray, 0.36);  % value 0 or 1
+imshow(bw2);
+
 
